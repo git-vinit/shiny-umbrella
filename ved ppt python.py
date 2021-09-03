@@ -1,0 +1,7 @@
+wrtobj=open("firstp.txt","w")
+wrtobj.write("Python is great language\n")
+wrtobj.close()
+readobj=open("firstp.txt","r")
+msg=readobj.read(20)
+print("File Contents are",msg)
+readobj.close()
